@@ -4,7 +4,7 @@ title: Member indoctrination pipeline
 ---
 
 flowchart TD
-  A -> B
+  A --> B
   Lead -->|Vetted| Candidate
   Lead -->|Rejected| Sorry
   Lead -->|Lost| Sorry
